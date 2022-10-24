@@ -1,0 +1,173 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.W{
+    font-size: 3.6rem;
+    margin: 1rem;
+    position: absolute;
+    font-weight: bold;
+}
+
+main{
+    display: inline-flex;
+    align-content: space-between;
+}
+.header-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.header-ul li{
+    margin: 1rem 1.5rem;
+}
+.header-ul a{
+    text-decoration: none;
+    color: gray;
+}
+.header-ul a:hover{
+    color: red;
+}
+
+.section{
+    margin-top: 2.5rem;
+    display: inline-flex;
+
+}
+.imag{
+    margin-right: -16rem;
+    margin-top: -0.5rem;
+}
+.imag img{
+    width: 80%;
+    margin: 1rem;
+    
+}
+
+.new{ color: orange;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:  1rem auto 0 1rem; 
+    font-size: 2.4rem;
+}
+.section-ul{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+    margin: 0.5rem;
+    font-size: 1.6rem;
+    background-color:#1c1e31;
+    padding: 0.5rem;
+    height: 100%;
+    justify-content: space-around;
+}
+.section-ul p{
+    margin: 0.2rem;
+    padding: 0.2rem;
+    color: rgb(190, 184, 184);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: auto;
+   
+}
+.section-ul li{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content:space-around
+}
+.section-ul a{
+    text-decoration: none;
+    color: white;
+}
+.section-ul a:hover{
+    color: orange;
+}
+.container{
+    display: inline-flex;
+}
+.encabezado{
+    font-size: 3.6rem;
+    font-weight: bold;
+    margin: 2rem;
+    max-width: 25.5rem;
+}
+
+.foot{
+    display: flex;
+}
+
+.foot div{
+    width: 50rem;
+}
+
+.img-foot{
+    width: 10rem;
+    
+}
+button{
+    background-color: #1c1e31;
+    border: none;
+    color: white;
+    padding: .8rem;
+    width: 13rem;
+    margin-top: 3rem;
+}
+.head-button{
+    color: gray;
+    font-size: 1.6rem;
+    width: 50%;
+}
+ button a{
+    text-decoration: none;
+    color: white;
+ }
+ button a:hover{
+    color: orange;
+ }
+
+ .foot-card{
+    display: flex;
+    margin: 2rem;
+ }
+
+ .foot-p{
+    display: flex;
+    flex-direction: column;
+ }
+ .card-head{
+    font-size: 3.6rem;
+    color: gray;
+    margin: 0.5rem;
+ }
+.foot-card li{
+    height: 5rem;
+}
+ .card-title{
+    font-size: 2.1rem;
+    margin: 0.5rem;
+ }
+.card-content{
+    margin: 0.5rem;
+    color: gray;
+}
+.card-title a{
+    text-decoration: none;
+    color: black;
+}
+.card-title a:hover{
+    color: red;
+}
